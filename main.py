@@ -18,3 +18,6 @@ async def get_info():
 	"port": 8000
     }
 
+@app.get("/about")
+async def get_about():
+    return {"message": "This is a DevOps test application"}
